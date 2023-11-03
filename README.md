@@ -1,6 +1,6 @@
 # ArchiveGuardian
 
-![Logo](https://github.com/karlh001/archiveguardian/logos/archive_guardian_logo_web_low_res.jpg?raw=true)
+![Logo](https://github.com/karlh001/archiveguardian/blob/main/logos/archive_guardian_logo_web_low_res.jpg?raw=true)
 
 ## About 
 
