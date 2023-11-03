@@ -54,12 +54,6 @@ To scan your first directory add the -d flag followed by your path.
 Type 'y' to confirm the input directory 
 
 > Do you want to run on directory? /home/Pictures/ (y or n): 
-
-## Run as schedule task 
-
-You can easily run as a scheduled tasks. Add the s flag to skip the yes/no prompt. 
-
-> ag -ds /path/to/dir/ 
  
 ## Failed Hashes 
 
