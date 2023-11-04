@@ -80,6 +80,20 @@ The object is opened 64MB increments to preserve RAM should you try to hash a 5 
 
 AG will not attempt to hash zero byte objects. Minimum file object is 1 byte and no theoretical maximum size. AG has been tested on object sizes up to 5 GB. 
 
+## Logging
+
+AG does not yet have built-in logging. However you can add > with log location to achive this
+
+> ag -d /path/to/files/ -s yes > /dir/to/log.log
+
+## Run on schudule
+
+From version 1.1 you can now run on schedule. use the -s flag followed by yes
+
+> ag -d /path/to/files/ -s yes
+
+Adding -s yes will skip the user prompt.
+
 ## What's next? 
 
 AG is still actively developed. Now that the core function is stable, I am looking to add new features and possibility of GUI. Feedback is important to help direct the project.  
