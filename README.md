@@ -26,11 +26,11 @@ Each object is checked against a known hash. If the object has not been seen by 
 
 #### Objects Before Running
 
-![Before](https://github.com/karlh001/archiveguardian/blob/main/logos/archive_guardian_logo_web_low_res.jpg?raw=true)
+![Before](https://github.com/karlh001/www-public/blob/main/Projects/ArchiveGuardian/pasted_image.png?raw=true)
 
 #### Objects After Running
 
-![After](https://github.com/karlh001/archiveguardian/blob/main/logos/archive_guardian_logo_web_low_res.jpg?raw=true)
+![After](https://github.com/karlh001/www-public/blob/main/Projects/ArchiveGuardian/pasted_image001.png?raw=true)
 
 As you can see, a small text file will be created to store the object's metadata. This hash file is then used to check the object's integrity at a later date. It contains date process, hash, object path, size and program version.  
 
