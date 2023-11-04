@@ -13,7 +13,11 @@ Run periodically to check the integrity of your static archive or backup.
 
 ## Requirements
 
-No dependencies required. Runs on Linux. 
+Runs on Linux x64
+
+Python3 required. Python is generally installed by default on many Linux distributions.
+
+> sudo apt install python3
 
 ## How it works
 
