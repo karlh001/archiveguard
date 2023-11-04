@@ -24,17 +24,27 @@ Python3 required version 3.10. Python is generally installed by default on many 
 Each object is checked against a known hash. If the object has not been seen by AG yet, a meta data hash object will be created next to it. Further running of the script will result in the object being checked against the hash. Some objects change, you know which are corrupted and need restoring for backup. Many integrity fails informs you that your media is damaged, such as faulted hard drive.  
 
 
-#### Before running script: 
- 
+#### Objects Before Running
+
+![Logo]([[https://github.com/karlh001/archiveguardian/blob/main/logos/archive_guardian_logo_web_low_res.jpg?raw=true](https://github.com/karlh001/www-public/tree/main/Projects/ArchiveGuardian](https://github.com/karlh001/www-public/blob/main/Projects/ArchiveGuardian/pasted_image.png?raw=true)))
+
+#### Objects After Running
+
+![Logo]([https://github.com/karlh001/archiveguardian/blob/main/logos/archive_guardian_logo_web_low_res.jpg?raw=true](https://github.com/karlh001/www-public/blob/main/Projects/ArchiveGuardian/pasted_image001.png?raw=true))
 
 As you can see, a small text file will be created to store the object's metadata. This hash file is then used to check the object's integrity at a later date. It contains date process, hash, object path, size and program version.  
 
 
-### What's a hash?  
+## What's a hash?  
 
 The object (such as picture file, video file, document) is put through a mathematical formula to return a unique code for each object. It's unlikely two different objects will contain the same code. This is why it's a great method to check objects have not been changed. For example, if bit rot occurs, a single bit may change from a 1 to a 0 or vice versa which may not make much difference to a text file, but completely change a picture or damage a video.  
 
 AG used SHA-256 algorithm to generate hashes. For example the word "ArchiveGuardian" run through SHA-256 will become: 5ed67e6e88e9641c9660f6398c66410e0c9042a6a7e20eb831cd55ab97779a8d. If I change the n to a m ("ArchiveGuardiam") the hash changes drastically to: fdc1c8b8ca1ff406180c2315f4c3c200e83fd0d1ac960ad5580ff46a65678679 
+
+## Download
+
+For quick set-up, simply download the file named "ag" from the repro.
+
 
 ## Installation 
 
