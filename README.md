@@ -15,7 +15,7 @@ Run periodically to check the integrity of your static archive or backup.
 
 Runs on Linux x64
 
-Python3 required. Python is generally installed by default on many Linux distributions.
+Python3 required version 3.10. Python is generally installed by default on many Linux distributions.
 
 > sudo apt install python3
 
