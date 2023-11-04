@@ -11,8 +11,11 @@ It is best used for static objects, such as pictures, archived documents and aud
 
 Run periodically to check the integrity of your static archive or backup.  
 
+## Requirements
 
-## How it works  
+No dependencies required. Runs on Linux. 
+
+## How it works
 
 Each object is checked against a known hash. If the object has not been seen by AG yet, a meta data hash object will be created next to it. Further running of the script will result in the object being checked against the hash. Some objects change, you know which are corrupted and need restoring for backup. Many integrity fails informs you that your media is damaged, such as faulted hard drive.  
 
@@ -35,7 +38,7 @@ Download and unpack the archive. Copy 'ag' to your user bin for easy use on the 
 
 > sudo cp ag /usr/bin/ag
 
-Alternatrively, you can run directly from directory
+Alternatively, if you want to run directly from directory:
 
 > ./ag
 
@@ -71,7 +74,7 @@ AG will check every object in the directory structure, if no hash file present, 
 
 The object is opened 64MB increments to preserve RAM should you try to hash a 5 GB file.  
 
-AG will not attempt to hash zero byte objects. Minimum file object is 1 byte and no theorical maximum size. AG has been tested on object sizes up to 5 GB. 
+AG will not attempt to hash zero byte objects. Minimum file object is 1 byte and no theoretical maximum size. AG has been tested on object sizes up to 5 GB. 
 
 ## What's next? 
 
