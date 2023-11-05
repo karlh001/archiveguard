@@ -60,7 +60,7 @@ Open the terminal and type:
  
 > ag
 
-If you see an output it works. If not, make sure you are in the same directory.  
+If you see an output it works. If not, make sure you are in the same directory. If you are unable to run ag on your system, and have python3 installed, try running [ag.pyc](https://github.com/karlh001/archiveguardian/wiki/ag.pyc).
 
 ## Run 
 
