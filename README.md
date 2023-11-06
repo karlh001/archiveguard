@@ -57,6 +57,10 @@ Download and unpack the archive. Copy 'ag' to your user bin for easy use on the 
 
 > sudo cp ag /usr/bin/ag
 
+Make executable
+
+> sudo chmod +x /usr/bin/ag
+
 Alternatively, if you want to run directly from directory:
 
 > ./ag
