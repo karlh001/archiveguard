@@ -49,7 +49,7 @@ For quick set-up, simply download the file named "ag" (linux) or "ag.exe" for Wi
 
 For Windows, download ag.exe and follow this [post](https://github.com/karlh001/archiveguardian/wiki/AG-on-Windows).
 
-For Linux, download "ag". Due to many different varients of Linux, if this does not work, try the ag.pyc using python but [read me](https://github.com/karlh001/archiveguardian/wiki/ag.pyc-File) first.
+For Linux, download "ag". Due to many different varients of Linux, if this does not work, try the ag.pyc using python but [read me](https://github.com/karlh001/archiveguardian/wiki/ag.pyc-File) first. You could also try the compatible version "ag_compatible" as this was built on an older version of Linux.
 
 ## Installation Linux
 
