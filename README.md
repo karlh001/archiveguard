@@ -43,10 +43,15 @@ AG used SHA-256 algorithm to generate hashes. For example the word "ArchiveGuard
 
 ## Download
 
-For quick set-up, simply download the file named "ag" from the repro.
+For quick set-up, simply download the file named "ag" (linux) or "ag.exe" for Windows.
 
+## Operating Systems
 
-## Installation 
+For Windows, download ag.exe and follow this [post](https://github.com/karlh001/archiveguardian/wiki/AG-on-Windows).
+
+For Linux, download "ag". Due to many different varients of Linux, if this does not work, try the ag.pyc using python but [read me](https://github.com/karlh001/archiveguardian/wiki/ag.pyc-File) first.
+
+## Installation Linux
 
 Download and unpack the archive. Copy 'ag' to your user bin for easy use on the command line. 
 
@@ -60,7 +65,15 @@ Open the terminal and type:
  
 > ag
 
-If you see an output it works. If not, make sure you are in the same directory. If you are unable to run ag on your system, and have python3 installed, try running [ag.pyc](https://github.com/karlh001/archiveguardian/wiki/ag.pyc-File).
+If you see an output it works. Read the "Run" section. If not, make sure you are in the same directory. If you are unable to run ag on your system, and have python3 installed, try running [ag.pyc](https://github.com/karlh001/archiveguardian/wiki/ag.pyc-File).
+
+## Installation Windows
+
+Using POWERSHELL or CMD (Win+R, type 'cmd' hit enter) type the full path to execute the program. If you double-click the icon the console closes straight away.
+
+> C:\Users\Me\ag.exe -d C:\Users\Me\Pictures\
+
+Your anti-malware or anti-virus scanner may block these execuable file. You will need to allow AG before running.
 
 ## Run 
 
