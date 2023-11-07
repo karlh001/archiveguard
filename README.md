@@ -4,20 +4,19 @@
 
 ## About 
 
-Archive Guardian (AG) is a light-weight python command line utility designed to check file (object) integrity within a directory structure. The hash of the object is stored with the object to check next time the program is run. The meta data file keeps the name of the object plus the extension .aghash0.  
+Archive Guardian (AG) is a light-weight python command line utility designed to check file (object) integrity within a directory structure. The hash of the object is stored with the object to check next time the program is run. The meta data file keeps the name of the object plus the extension [.aghash0](https://github.com/karlh001/archiveguardian/wiki/aghash0-Extension).  
 
-It is best used for static objects, such as pictures, archived documents and audio. An excellent use case is on hard drives infrequently accessed. Further use could be to run the command, then upload objects with hash file to the cloud to ensure nothing has changed should you need to restore the objects. After the hash has been produced, further execution of the program will result in the object being hashed and check against the existing hash. Best way to test is run the program, make a chance to the object and run again to see the failed output. 
+It is best used for static objects, such as pictures, archived documents and audio. An excellent use case is on hard drives infrequently accessed as a backup or archive disk. Another use is for checking cloud integrity: run the command, then upload objects with hash file to the cloud to ensure nothing has changed should you need to restore the objects.
 
+After the hash has been produced, further execution of the program will result in the object being hashed and check against the existing hash. Best way to test is run the program, make a chance to the object and run again to see the failed output. 
 
-Run periodically to check the integrity of your static archive or backup.  
+Run [periodically](https://github.com/karlh001/archiveguardian/wiki/Schedule-Run) to check the integrity of your static archive or backup.  
 
 ## Requirements
 
-Runs on Linux x64
+Runs on Linux x64. [Click here](https://github.com/karlh001/archiveguardian/wiki/OS-Tested) for versions tested on.
 
-Python3 required version 3.10. Python is generally installed by default on many Linux distributions.
-
-> sudo apt install python3
+5.1 MB disk space.
 
 ## How it works
 
@@ -47,13 +46,21 @@ For quick set-up, simply download the file named "ag" (linux) or "ag.exe" for Wi
 
 ## Operating Systems
 
+### Windows
+
 For Windows, download ag.exe and follow this [post](https://github.com/karlh001/archiveguardian/wiki/AG-on-Windows).
+
+Using POWERSHELL or CMD (Win+R, type 'cmd' hit enter) type the full path to execute the program. If you double-click the icon the console closes straight away.
+
+> C:\Users\Me\ag.exe -d C:\Users\Me\Pictures\
+
+Your anti-malware or anti-virus scanner may block these execuable file. You will need to allow AG before running.
+
+### Linux
 
 For Linux, download "ag". Due to many different varients of Linux, if this does not work, try the ag.pyc using python but [read me](https://github.com/karlh001/archiveguardian/wiki/ag.pyc-File) first. You could also try the compatible version "ag_compatible" as this was built on an older version of Linux.
 
-## Installation Linux
-
-Download and unpack the archive. Copy 'ag' to your user bin for easy use on the command line. 
+Download and unpack the archive. Copy 'ag' to your usr bin for easy use on the command line. 
 
 > sudo cp ag /usr/bin/ag
 
@@ -71,15 +78,11 @@ Open the terminal and type:
 
 If you see an output it works. Read the "Run" section. If not, make sure you are in the same directory. If you are unable to run ag on your system, and have python3 installed, try running [ag.pyc](https://github.com/karlh001/archiveguardian/wiki/ag.pyc-File).
 
-## Installation Windows
+### MAC OS
 
-Using POWERSHELL or CMD (Win+R, type 'cmd' hit enter) type the full path to execute the program. If you double-click the icon the console closes straight away.
+No complied binary for Mac OSX as I do not have access to the operating system.
 
-> C:\Users\Me\ag.exe -d C:\Users\Me\Pictures\
-
-Your anti-malware or anti-virus scanner may block these execuable file. You will need to allow AG before running.
-
-## Run 
+## Run Commands
 
 To scan your first directory add the -d flag followed by your path.  
 
@@ -124,10 +127,6 @@ Adding -s yes will skip the user prompt.
 ## What's next? 
 
 AG is still actively developed. Now that the core function is stable, I am looking to add new features and possibility of GUI. Feedback is important to help direct the project.  
-
-## Donate 
-
-If you find it useful, please donate to help the development of this tool. 
 
 ## Contact 
 
