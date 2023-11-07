@@ -128,6 +128,10 @@ Adding -s yes will skip the user prompt.
 
 AG is still actively developed. Now that the core function is stable, I am looking to add new features and possibility of GUI. Feedback is important to help direct the project.  
 
+## Wiki
+
+More details about AG found [here](https://github.com/karlh001/archiveguardian/wiki) on the GitHub Wiki.
+
 ## Contact 
 
 ag@karlhunter.co.uk 
