@@ -58,7 +58,7 @@ Your anti-malware or anti-virus scanner may block these execuable file. You will
 
 ### Linux
 
-For Linux, download "ag". Due to many different varients of Linux, if this does not work, try the ag.pyc using python but [read me](https://github.com/karlh001/archiveguardian/wiki/ag.pyc-File) first. You could also try the compatible version "ag_compatible" as this was built on an older version of Linux.
+For Linux, download "ag". Due to many different varients of Linux, if this does not work, try the ag.py in the /src directory using python but [read me](https://github.com/karlh001/archiveguardian/wiki/ag.py-File) first. 
 
 Download and unpack the archive. Copy 'ag' to your usr bin for easy use on the command line. 
 
@@ -76,11 +76,11 @@ Open the terminal and type:
  
 > ag
 
-If you see an output it works. Read the "Run" section. If not, make sure you are in the same directory. If you are unable to run ag on your system, and have python3 installed, try running [ag.pyc](https://github.com/karlh001/archiveguardian/wiki/ag.pyc-File).
+If you see an output it works. Read the "Run" section. If not, make sure you are in the same directory. If you are unable to run ag on your system, and have python3 installed, try running [ag.py](https://github.com/karlh001/archiveguardian/wiki/ag.py-File) from source code.
 
 ### MAC OS
 
-No complied binary for Mac OSX as I do not have access to the operating system.
+No complied binary for Mac OSX as I do not have access to the operating system. 
 
 ## Run Commands
 
